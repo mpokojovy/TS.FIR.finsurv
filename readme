@@ -1,0 +1,27 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                 A Fast Initial Response Approach to Real-Time Financial Surveillance                %
+%                         (C) Michael Pokojovy and Andrews T. Anum (2022)                             %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+This Matlab package implements the fast initial response approach to real-time financial surveillance
+proposed by Michael Pokojovy and Andrews T. Anum (2022) based on the original SPC methodology
+developed by by Michael Pokojovy and J. Marcus Jobe (2021). See their recent publication:
+    Michael Pokojovy & J. Marcus Jobe (2021). 
+    Univariate fast initial response statistical process control with taut strings, 
+    Journal of Applied Statistics, DOI: 10.1080/02664763.2021.1900798 
+    https://www.tandfonline.com/doi/abs/10.1080/02664763.2021.1900798
+
+Data source: https://www.marketwatch.com/investing/stock/fb/download-data
+
+Instructions:
+
+A) Create a folder and download the TS FIR package from
+https://github.com/mpokojovy/TS.chart.1D
+
+B) Copy the content of the present package to the same folder. (All Matlab filed and CSV tables from
+this package will be contained in FS.stock.example subfolder.)
+
+C) Run main.m from FS.stock.example folder. Adjust settings if necessary.
+
+Copyright: Michael Pokojovy and Andrews T. Anum (2022)
+See license for license conditions
